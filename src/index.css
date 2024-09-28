@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active{
+    border-bottom: 1px solid red;
+    transition: 1s all;
+}
